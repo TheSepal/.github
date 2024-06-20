@@ -11,7 +11,3 @@ issue_templates:
     name: Epic or Milestone
     about: Used to define larger projects within a single repo consisting of multiple issues.
     labels: epic
-  initiative:
-    name: Initiative
-    about: Used to define larger projects across multiple repos consisting of multiple issues.
-    labels: initiative
