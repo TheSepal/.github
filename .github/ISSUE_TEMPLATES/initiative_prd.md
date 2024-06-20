@@ -1,3 +1,8 @@
+---
+name: Initiative
+about: Used to define larger projects across multiple repos consisting of multiple issues.
+labels: initiative
+---
 
 # Initiative Title
 

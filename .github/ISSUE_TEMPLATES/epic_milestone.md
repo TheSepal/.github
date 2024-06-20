@@ -1,3 +1,8 @@
+---
+name: Epic or Milestone
+about: Used to define larger projects within a single repo consisting of multiple issues.
+labels: epic
+---
 
 # Milestone Solutions Document
 

@@ -1,3 +1,10 @@
+---
+story:
+name: Feature Request
+about: Suggest an idea for improving the platform.
+labels: enhancement
+---
+
 # Feature/User Story Description
 
 ## User Story**: As a [type of user], I want to [perform some task] so that [achieve some goal]

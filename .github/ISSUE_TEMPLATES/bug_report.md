@@ -1,4 +1,9 @@
-<!-- .github/ISSUE_TEMPLATE/bug_report.md -->
+---
+name: Bug Report
+about: Report a bug encountered while operating the platform.
+labels: bug
+---
+
 # [BUG NAME]
 
 * labels: bug
