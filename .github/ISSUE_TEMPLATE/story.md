@@ -20,12 +20,40 @@ labels: enhancement
 3. [Criterion 3]
    - [Sub-criterion, if applicable]
 
-## Tasks
+## Data Flow
+<!-- Describe Data flow here. -->
 
-- [Task 1]
-- [Task 2]
-- [Task 3]
 
+###  Sequence Diagram (optional)
+<!--
+```mermaid
+sequenceDiagram;
+    Client->>+InviterUserDoc: Writes to the inviteInit field;
+    InviterUserDoc->>+CloudFunction: Triggers;
+    CloudFunction->>+CloudFunction: Validates Request;
+    CloudFunction-->>-InviterUserDoc: Writes to InvitesOutgoing map;
+    CloudFunction-->>-InviteeUserDoc: Writes to InvitesIncoming map;
+```
+-->
+## Security Concerns
+<!-- Add security concerns here. e.g.:
+We have to ensure that:
+* The user is writing to their own user doc
+* The invitee exists
+* Their isn't an existing friend relationship
+* The Gardens are owned by requestor -->
+
+## Privacy Concerns
+<!-- Add privacy concerns here. e.g.:
+Only the username and profilePic can be shared prior to friend acceptance
+-->
+## Coding Plan
+<!--
+- [ ] Write tests for firestore.rules
+- [ ] Update firestore rules
+- [ ] write tests for cloud function that handles business logic
+- [ ] Write cloudfunction that is triggered by user doc change to handle business logic
+-->
 ## Additional Information**
 
 [Add any additional information that might be helpful, such as related links, documents, or discussions.]
