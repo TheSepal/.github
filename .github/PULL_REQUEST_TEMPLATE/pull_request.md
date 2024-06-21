@@ -1,3 +1,9 @@
+---
+story:
+name: Pull Request
+about: Pull Request Template
+labels: pr
+---
 # Fixes [Issue Num]
 <!-- Add a Summary of the issue here -->
 

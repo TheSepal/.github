@@ -1,0 +1,5 @@
+issue_templates:
+  bug_report:
+    name: Pull Request
+    about: Standard Pull Request Template
+    labels: pr
